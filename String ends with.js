@@ -8,6 +8,12 @@ function solution(str, ending){
     } else {
         return false;
     }
+
+    // One Line Code
+
+    // console.log(str.endsWith(ending));
+
+
 }
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false
